@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Data Visualization</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" type="text/css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="./pesticide.min.css"> -->
+    <!-- <script type="text/javascript" src="./jQuery.js"></script> -->
+    <script type="text/javascript" src="./d3.v4.min.js"></script>
+    <script type="text/javascript" src="./topojson.v1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="content">
+            <svg id="chart">
+            </svg>
+            <div id="tooltip">
+                <p id="mass">mass: <span></span> </p>
+                <p id="name">name: <span></span> </p>
+                <p id="long">long: <span></span> </p>
+                <p id="lat">lat: <span></span> </p>
+                <p id="recclass">recclass: <span></span> </p>
+                <p id="year">year: <span></span> </p>
+                <p id="nametype">nametype: <span></span> </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
