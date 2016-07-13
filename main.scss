@@ -1,0 +1,50 @@
+div#tooltip {
+    position: absolute;
+}
+
+div#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #2C3E50;
+}
+
+div#content {
+    display: flex;
+    position: relative;
+    background-color: #3498DB;
+    width: 100%;
+    flex: 1;
+}
+
+div.nodes {
+    img {
+        position: absolute;
+        z-index: 2;
+    }
+}
+
+svg {
+    height: 100vh;
+}
+
+div#tooltip {
+    background-color: #ECF0F1;
+    padding: 10px;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+div#title {
+    margin-bottom: 20px;
+    p {
+        color: white;
+        font-family: 'Lato', 'sans-serif';
+        margin: 0;
+        padding: 10px;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+}
